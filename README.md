@@ -1,8 +1,8 @@
-<h2 align="center"> GPredict Industrial Machinery Maintenence </h1>
+<h2 align="center"> Predict Industrial Machinery Maintenence </h1>
 
 ### 📌 Project description and methodology
 
-The goal of this project is to develop a supervised learning classification algorithm to predict when maintenance is required or not on an industrial machine.
+The goal of this project is to develop a supervised learning binary classification algorithm to predict when maintenance is required or not on an industrial machine.
 
 The methodology of this project consists of the steps of data exploration and cleaning, data preprocessing, modeling, model evaluation and optimization.
 
@@ -30,7 +30,7 @@ Python libraries used for this project are:
 ### Pre-Processing
 
 1- Data Division at trainning, validation and test
-2- Class balancing (trainning subset)
+2 - Class balancing (trainning subset)
 3 - Standardization
 
 ### Data Modeling Predictive
