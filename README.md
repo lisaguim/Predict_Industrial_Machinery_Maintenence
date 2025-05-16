@@ -2,17 +2,15 @@
 
 ### 📌 Project description and methodology
 
-This project aims to verify whether or not geolocation interfers with conversion rates (the sale of the product) though statistical test.
+The goal of this project is to develop a supervised learning classification algorithm to predict when maintenance is required or not on an industrial machine.
 
-This analysis is applicable, for example when a company carries out a Digital Marketing campaign in different geographic areas.
-
-During the project, it was verified which statistical test (parametric or non-parametric) is the most appropriate for the distribution of the data.
+The methodology of this project consists of the steps of data exploration and cleaning, data preprocessing, modeling, model evaluation and optimization.
 
 ### 📜 Dataset
 
-The dataset used has random and fictitious data, which consists of 5 columns. 
+The dataset used contains fictitious data from the recording of 178 IoT (Internet of Things) sensor data readings.
 
-
+Each row of the dataset contains 178 readings, which are the columns of different sensors. In other words, there are 178 columns that make up the IoT sensor readings. In total, there are 11,500 rows and 179 columns, with the last column (179th) containing the status of the industrial machine, whether or not it required maintenance, i.e., it is the target variable.
 
 ### 📚 Libraries
 
