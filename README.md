@@ -1,4 +1,4 @@
-<h2 align="center"> Predict Industrial Machinery Maintenence </h1>
+<h2 align="center"> Predict Industrial Machinery Maintenence </h2>
 
 ### 📌 Project description and methodology
 
@@ -45,8 +45,12 @@ In this step, we checked null & duplicate values in dataset and  positive class 
   - Class balancing (trainning subset): 
 
   It was checked that dataset had a balacing class of 80% negative values versus 20% positive values. Therefore, class balancing was applied for trainning dataset through undersampling technique.
+  
+![All Dataset before class balancing](https://github.com/user-attachments/assets/18ab1366-5e96-4471-ac97-d5c9c17c5453)
 
   After that, class balancing is 50% and train dataset reduced from 8050 to 3248 rows (samples).
+
+![After class balancing](https://github.com/user-attachments/assets/32db8d91-8ee6-4dae-aecc-9204aa5a9c34)
 
   - Standardization:
 
@@ -75,4 +79,7 @@ As everything can be improved, this step aims to optimize the xgboosting hyperpa
 ### 📊 Results
 
 Based on the analysis of the data, the optimized XGBoost prediction model is the best model as it presented the best performance and evaluation in the AUC metric.
+
+![results](https://github.com/user-attachments/assets/6e006577-9b1e-4685-a7ea-e11bf85b1e90)
+
 
