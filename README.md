@@ -60,21 +60,19 @@ Metric functions were defined to evaluate the three predictive model options.
 Since this is a binary classification model, the metrics used were AUC (Area Under the Curve), Accuracy, Recall, Precision and Specificity.
   
   - Creating mmodels:
-    
-   - - Logistic Regression <br>
-   - - Gaussian Naive Bayes <br>
-   - - Decision Tree and  Boosting <br>
+
+When determining the machine learning classification algorithm, three prediction algorithm options will be created: Logistic Regression, Gaussian Naive Bayes, and Decision Tree with Boosting.
+The objective of this step is to evaluate which model is best (based on the metrics) for this project.
 
 ### 📗 Cross Validation
 
+The best model so far is the third option (Gaussian Naive Bayes) based on the metrics evaluations, but it is still necessary to verify its generalization capacity, that is, if the model understood the mathematical relationship between the data and not only the details of the training data. Therefore, in this step, we be used the cross validation to check if model is overfitting or not.
+
 ### ⚖️ Hypermarameter Optimization
 
-GridSerachCV
+As everything can be improved, this step aims to optimize the xgboosting hyperparameter for model 3, in order to achieve the best model performance through GridSearchCV from sklearn.
 
 ### 📊 Results
 
-Based on the analysis of the data, we have no statistical evidence to state that geographic region has an influence on the average conversion rate in the data analyzed.
-
-![image](https://github.com/user-attachments/assets/46ae7032-a0ae-4333-b8b7-6fe8611da5e8)
-
+Based on the analysis of the data, the optimized XGBoost prediction model is the best model as it presented the best performance and evaluation in the AUC metric.
 
